@@ -27,6 +27,7 @@ body {
   margin-top: 10px;
   margin-bottom: 5px;
   font-size: 32px;
+  border-bottom: 4px solid #f4f3ee;
 }
 
 a {
@@ -52,5 +53,6 @@ a {
 
 #footer {
   font-size: 20px;
-  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 4px solid #f4f3ee;
 }
