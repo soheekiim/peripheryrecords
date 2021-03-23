@@ -49,10 +49,14 @@ a {
 #mv {
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 #footer {
   font-size: 20px;
   padding-top: 10px;
   border-top: 4px solid #f4f3ee;
+
+  position: relative;
+  top: 5px;
 }
