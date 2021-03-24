@@ -24,10 +24,14 @@ body {
 #banner {
   display: flex;
   justify-content: space-around;
-  margin-top: 10px;
+  padding-top: 10px;
   margin-bottom: 5px;
   font-size: 32px;
   border-bottom: 4px solid #f4f3ee;
+
+  position: fixed;
+  top: 0px;
+  width: 100%
 }
 
 a {
@@ -47,9 +51,11 @@ a {
 }
 
 #mv {
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
-  box-sizing: border-box;
+  align-items: center;
+  height: 90%;
 }
 
 #footer {
@@ -57,6 +63,7 @@ a {
   padding-top: 10px;
   border-top: 4px solid #f4f3ee;
 
-  position: relative;
-  top: 5px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
